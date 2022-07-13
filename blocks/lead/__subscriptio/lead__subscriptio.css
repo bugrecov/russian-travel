@@ -1,0 +1,11 @@
+.lead__subscriptio {
+  padding-top: 6px;
+  font-size: 10px;
+  line-height: 14px;
+  font-weight: 300;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  color: #fff;
+  margin: 0;
+  align-self: flex-start;
+}

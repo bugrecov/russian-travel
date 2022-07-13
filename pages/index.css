@@ -15,3 +15,5 @@
 @import url(../blocks/lead/lead.css);
 @import url(../blocks/lead/__title/lead__title.css);
 @import url(../blocks/lead/__subtitle/header__subtitle.css);
+@import url(../blocks/lead/__pic-container/lead__pic-container.css);
+@import url(../blocks/lead/__subscriptio/lead__subscriptio.css);
