@@ -1,3 +1,21 @@
 .place__paragraph-container {
   max-width: 484px;
 }
+
+@media screen and (max-width: 1279px) {
+  .place__paragraph-container {
+    max-width: 456px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .place__paragraph-container {
+    max-width: 352px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .place__paragraph-container {
+    max-width: 288px;
+  }
+}

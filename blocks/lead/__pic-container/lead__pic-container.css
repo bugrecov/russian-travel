@@ -1,6 +1,25 @@
 .lead__pic-container {
-  padding-top: 64px;
+  padding: 0;
   margin: 0;
   max-width: 984px;
   max-height: 637px;
+  object-fit: cover;
+}
+
+@media screen and (max-width: 1279px) {
+  .lead__pic-container {
+    max-width: 928px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .lead__pic-container {
+    max-width: 768px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .lead__pic-container {
+    max-width: 320px;
+  }
 }

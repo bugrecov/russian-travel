@@ -2,6 +2,14 @@
   width: 176px;
   height: 52px;
   display: flex;
-  object-fit: cover;
   background-image: url("../../../images/logo/logo.svg");
+}
+
+@media screen and (max-width: 768px) {
+  .header__logo {
+    width: 142px;
+    height: 42px;
+    object-fit: cover;
+    background-size: 100%
+  }
 }

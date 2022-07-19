@@ -4,3 +4,10 @@
   padding: 0;
   border-bottom: 2px solid #fff
 }
+
+@media screen and (max-width: 767px) {
+  .header__lang-link_active {
+    font-size: 18px;
+    line-height: 20px;
+  }
+}
