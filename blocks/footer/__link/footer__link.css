@@ -5,4 +5,20 @@
   font-weight: 400;
   font-size: 16px;
   line-height: 18px;
+  transition: opacity 0.2s linear;
+}
+
+@media screen and (max-width: 767px) {
+  .footer__link {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 24px;
+    color: #FFFFFF;
+    padding: 0 0 0 16px;
+  }
+}
+
+.footer__link:hover {
+  opacity: 0.8;
 }
