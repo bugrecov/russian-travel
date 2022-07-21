@@ -8,6 +8,10 @@
   transition: opacity 0.2s linear;
 }
 
+.footer__link:hover {
+  opacity: 0.8;
+}
+
 @media screen and (max-width: 767px) {
   .footer__link {
     font-style: normal;
@@ -17,8 +21,4 @@
     color: #FFFFFF;
     padding: 0 0 0 16px;
   }
-}
-
-.footer__link:hover {
-  opacity: 0.8;
 }
