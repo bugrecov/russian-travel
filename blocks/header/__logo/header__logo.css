@@ -3,13 +3,12 @@
   height: 52px;
   display: flex;
   background-image: url("../../../images/logo/logo.svg");
+  background-size: 100%;
 }
 
 @media screen and (max-width: 768px) {
   .header__logo {
     width: 142px;
     height: 42px;
-    object-fit: cover;
-    background-size: 100%;
   }
 }

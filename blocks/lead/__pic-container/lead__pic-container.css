@@ -2,7 +2,7 @@
   padding: 0;
   margin: 0;
   max-width: 984px;
-  max-height: 637px;
+  min-height: 637px;
   object-fit: cover;
 }
 
