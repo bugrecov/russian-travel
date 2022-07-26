@@ -20,6 +20,7 @@
   .place {
     grid-gap: 48px 28px;
     grid-template-columns: 340px 352px;
+    padding: 0 0 73px;
   }
 }
 
@@ -29,5 +30,6 @@
     grid-row: 2/3;
     min-width: 320px;
     gap: 32px;
+    padding: 0 0 50px;
   }
 }
